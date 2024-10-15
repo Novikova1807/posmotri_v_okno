@@ -223,10 +223,11 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
+  width: fit-content;
   height: 300px;
-  overflow: hidden scroll;
+  overflow: auto;
   position: relative;
-  padding: 2px 2px 2px 4px;
+  padding: 2px 0px 2px 4px;
 }
 
 .content__accent {
