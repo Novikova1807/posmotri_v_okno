@@ -9,6 +9,7 @@ html {
 }
 
 .page {
+  display: flex;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -39,10 +40,13 @@ ol {
 
 .content {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 133px 30px;
+  /* padding: 133px 30px;
+  column-gap: 26px; */
+  align-items: end;
   column-gap: 26px;
+  width: 1140px;
+  margin: auto;
+  padding-top: 133px;
 }
 
 .search-form {
@@ -221,7 +225,7 @@ ol {
   display: flex;
   flex-direction: column;
   height: 300px;
-  overflow: auto;
+  overflow-y: auto;
   position: relative;
   padding: 2px 2px 2px 4px;
 }
