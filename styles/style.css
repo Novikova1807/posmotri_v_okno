@@ -40,13 +40,12 @@ ol {
 
 .content {
   display: flex;
-  /* padding: 133px 30px;
-  column-gap: 26px; */
   align-items: end;
   column-gap: 26px;
   width: 1140px;
   margin: auto;
   padding-top: 133px;
+  padding-bottom: 133px;
 }
 
 .search-form {
@@ -225,7 +224,7 @@ ol {
   display: flex;
   flex-direction: column;
   height: 300px;
-  overflow-y: auto;
+  overflow: hidden scroll;
   position: relative;
   padding: 2px 2px 2px 4px;
 }
